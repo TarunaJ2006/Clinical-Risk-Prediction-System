@@ -178,7 +178,7 @@ with center:
         )
 
         if prediction == 1:
-            st.error("⚠️ Model indicates presence of heart disease")
+            st.error("⚠️ Model indicates elevated risk of heart disease")
         else:
             st.success("✅ Model indicates low likelihood of heart disease")
 
