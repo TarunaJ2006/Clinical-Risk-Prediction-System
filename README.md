@@ -86,11 +86,11 @@ Used `CalibratedClassifierCV` to ensure:
 
 ## 🖥️ Demo
 
-### High Risk Prediction
+### Input Interface
+![Input UI](high_input.png)
 
-![High Risk](your-image-name.png)
-
----
+### High Risk Prediction Output
+![High Risk](high_output.png)
 
 ## ⚠️ Limitations
 
