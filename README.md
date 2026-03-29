@@ -119,6 +119,15 @@ Used `CalibratedClassifierCV` to ensure:
 
 ---
 
+## 🚀 How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
 ## ⚠️ Disclaimer
 
 This project is for educational purposes and is **not a substitute for medical diagnosis**.
