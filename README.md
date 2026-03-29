@@ -4,6 +4,8 @@ Developed as part of a Bioengineering + Machine Learning project focusing on cli
 
 A machine learning-based **clinical decision support system** for predicting cardiovascular disease risk using patient clinical data.
 
+This system demonstrates how ML can assist clinicians by prioritizing high-risk patients and reducing missed diagnoses.
+
 ---
 
 ## 🌐 Live Demo
@@ -21,6 +23,8 @@ This project focuses on:
 
 * **Maximizing recall** (reducing missed diagnoses)
 * Providing **reliable probability estimates** for decision-making.
+
+Dataset: UCI Heart Disease dataset (clinical tabular data).
 
 ---
 
@@ -71,10 +75,9 @@ Used `CalibratedClassifierCV` to ensure:
 
 ## 📊 Results
 
-* ROC-AUC: ~0.93
-* Improved recall using threshold tuning
-* Reliable probability estimates after calibration
-* The model achieves strong discrimination (ROC-AUC ~0.93) while maintaining high recall, making it suitable for early detection scenarios.
+* ROC-AUC: ~0.93  
+* High recall achieved using threshold tuning (0.3)  
+* Well-calibrated probabilities suitable for clinical decision-making  
 
 ---
 
@@ -85,7 +88,7 @@ Used `CalibratedClassifierCV` to ensure:
   * Low Risk (< 0.3)
   * Medium Risk (0.3 – 0.6)
   * High Risk (> 0.6)
-* Clinical interpretation of predictions
+* Human-readable clinical reasoning (heuristic-based explanations)
 * Recommendation system based on risk level
 * Interactive Streamlit web application
 
