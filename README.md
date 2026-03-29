@@ -93,11 +93,17 @@ Used `CalibratedClassifierCV` to ensure:
 
 ## 🖥️ Demo
 
-### Input Interface
-![Input UI](high_input.png)
+### High Risk Prediction
 
-### High Risk Prediction Output
+![Input UI](high_input.png)
 ![High Risk](high_output.png)
+
+### Low Risk Prediction
+
+![Low Risk Input](low_input.png)
+![Low Risk Output](low_output.png)
+
+---
 
 ## ⚠️ Limitations
 
