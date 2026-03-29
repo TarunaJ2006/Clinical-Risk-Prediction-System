@@ -121,11 +121,21 @@ Used `CalibratedClassifierCV` to ensure:
 
 ## 🚀 How to Run
 
+1. Clone the repository:
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+git clone https://github.com/TarunaJ2006/Clinical-Risk-Prediction-System.git
+cd Clinical-Risk-Prediction-System
 ```
 
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the app:
+```bash
+streamlit run app.py
+```
 ---
 
 ## ⚠️ Disclaimer
