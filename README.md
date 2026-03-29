@@ -95,7 +95,7 @@ Used `CalibratedClassifierCV` to ensure:
 ## ⚠️ Limitations
 
 * Dataset is relatively small
-* Categorical variables treated as ordinal
+* Categorical variables treated as ordinal; proper encoding (e.g., OneHotEncoder) can improve performance.
 * No external clinical validation
 
 ---
