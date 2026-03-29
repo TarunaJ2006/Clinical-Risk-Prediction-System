@@ -119,6 +119,16 @@ Used `CalibratedClassifierCV` to ensure:
 
 ---
 
+## 📁 Project Structure
+
+- app.py → Streamlit web app  
+- notebook.ipynb → model development & analysis  
+- model.pkl → trained model  
+- columns.pkl → feature order used for prediction  
+- requirements.txt → dependencies
+
+---
+
 ## 🚀 How to Run
 
 1. Clone the repository:
