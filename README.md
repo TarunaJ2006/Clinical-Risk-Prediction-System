@@ -68,6 +68,7 @@ Used `CalibratedClassifierCV` to ensure:
 * ROC-AUC: ~0.93
 * Improved recall using threshold tuning
 * Reliable probability estimates after calibration
+* The model achieves strong discrimination (ROC-AUC ~0.93) while maintaining high recall, making it suitable for early detection scenarios.
 
 ---
 
