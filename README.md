@@ -14,7 +14,7 @@ In clinical settings, **missing a positive case (false negative)** can lead to s
 This project focuses on:
 
 * **Maximizing recall** (reducing missed diagnoses)
-* Providing **reliable probability estimates** for decision-making
+* Providing **reliable probability estimates** for decision-making.
 
 ---
 
