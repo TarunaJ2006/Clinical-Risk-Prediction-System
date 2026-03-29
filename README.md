@@ -6,6 +6,12 @@ A machine learning-based **clinical decision support system** for predicting car
 
 ---
 
+## 🌐 Live Demo
+
+👉 https://clinical-risk-predictor.streamlit.app
+
+---
+
 ## 🚨 Problem Statement
 
 Early detection of heart disease is critical.
