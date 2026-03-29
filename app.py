@@ -193,7 +193,7 @@ with center:
             st.success("Low risk — no major warning signs detected.")
 
         # WHY THIS PREDICTION
-        st.markdown("### 🔍 Why this prediction?")
+        st.markdown("### 🔍 Clinical Indicators (heuristic explanation)")
         st.caption("⚠️ Based on clinical heuristics (not direct model explanation)")
 
         reasons = []
