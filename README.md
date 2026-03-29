@@ -1,6 +1,6 @@
 # 🫀 Clinical Risk Prediction System
 
-Developed as part of a Bioengineering + Machine Learning project focusing on clinically reliable prediction systems.
+Developed as a Bioengineering + Machine Learning project focused on clinically reliable prediction systems.
 
 A machine learning-based **clinical decision support system** for predicting cardiovascular disease risk using patient clinical data.
 
@@ -24,11 +24,11 @@ This project focuses on:
 * **Maximizing recall** (reducing missed diagnoses)
 * Providing **reliable probability estimates** for decision-making.
 
-Dataset: UCI Heart Disease dataset (clinical tabular data).
-
 ---
 
 ## 🧠 Approach
+
+Dataset: UCI Heart Disease dataset (clinical tabular data).
 
 * Model: **Calibrated Logistic Regression**
 * Threshold tuning: **0.3 (recall-focused decision boundary)**
@@ -76,7 +76,7 @@ Used `CalibratedClassifierCV` to ensure:
 ## 📊 Results
 
 * ROC-AUC: ~0.93  
-* High recall achieved using threshold tuning (0.3)  
+* High recall for disease class (prioritized over precision to reduce missed diagnoses)
 * Well-calibrated probabilities suitable for clinical decision-making  
 
 ---
@@ -90,7 +90,7 @@ Used `CalibratedClassifierCV` to ensure:
   * High Risk (> 0.6)
 * Human-readable clinical reasoning (heuristic-based explanations)
 * Recommendation system based on risk level
-* Interactive Streamlit web application
+* Deployed interactive Streamlit web application (public access)
 
 ---
 
