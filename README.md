@@ -77,7 +77,20 @@ Used `CalibratedClassifierCV` to ensure:
 
 * ROC-AUC: ~0.93  
 * High recall for disease class (prioritized over precision to reduce missed diagnoses)
-* Well-calibrated probabilities suitable for clinical decision-making  
+* Well-calibrated probabilities suitable for clinical decision-making
+* Model Performance Comparison
+
+Logistic Regression:
+- ROC-AUC: 0.93
+- Recall (Disease Class): 0.91
+- Precision (Disease Class): 0.76
+- F1-score: 0.83
+
+Random Forest:
+- ROC-AUC: 0.999
+- Recall (Disease Class): 1.00
+- Precision (Disease Class): 0.98
+- F1-score: 0.99
 
 ---
 
