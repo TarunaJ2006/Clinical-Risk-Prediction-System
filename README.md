@@ -75,7 +75,6 @@ Used `CalibratedClassifierCV` to ensure:
 
 ## 📊 Results
 
-* ROC-AUC: ~0.93  
 * High recall for disease class (prioritized over precision to reduce missed diagnoses)
 * Well-calibrated probabilities suitable for clinical decision-making
 * Model Performance Comparison
@@ -95,6 +94,8 @@ Random Forest:
 Although Random Forest achieves near-perfect performance, this is likely due to overfitting given the small dataset size.
 
 Logistic Regression was selected as the final model due to better generalization, interpretability, and more reliable calibrated probabilities, making it more suitable for clinical use.
+
+Threshold tuning (0.3) was applied to further improve recall and align with clinical priorities.
 
 ---
 
