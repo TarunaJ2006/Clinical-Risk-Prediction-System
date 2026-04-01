@@ -75,7 +75,7 @@ Used `CalibratedClassifierCV` to ensure:
 
 ## 📊 Results
 
-* High recall for disease class (prioritized over precision to reduce missed diagnoses)
+* High recall (0.91) for disease class, prioritized to reduce missed diagnoses (false negatives).
 * Well-calibrated probabilities suitable for clinical decision-making
 * Model Performance Comparison
 
@@ -91,11 +91,11 @@ Random Forest:
 - Precision (Disease Class): 0.98
 - F1-score: 0.99
 
-Although Random Forest achieves near-perfect performance, this is likely due to overfitting given the small dataset size.
+Although Random Forest achieves near-perfect performance, this is likely due to overfitting given the limited dataset size.
 
 Logistic Regression was selected as the final model due to better generalization, interpretability, and more reliable calibrated probabilities, making it more suitable for clinical use.
 
-Threshold tuning (0.3) was applied to further improve recall and align with clinical priorities.
+Threshold tuning (0.3) was applied to improve recall (0.91) and align predictions with clinical priorities.
 
 ---
 
