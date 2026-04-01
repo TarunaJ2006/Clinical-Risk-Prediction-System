@@ -92,6 +92,10 @@ Random Forest:
 - Precision (Disease Class): 0.98
 - F1-score: 0.99
 
+Although Random Forest achieves near-perfect performance, this is likely due to overfitting given the small dataset size.
+
+Logistic Regression was selected as the final model due to better generalization, interpretability, and more reliable calibrated probabilities, making it more suitable for clinical use.
+
 ---
 
 ## 💡 Features
