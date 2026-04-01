@@ -4,8 +4,9 @@ Developed as a Bioengineering + Machine Learning project focused on clinically r
 
 A machine learning-based **clinical decision support system** for predicting cardiovascular disease risk using patient clinical data.
 
-This system demonstrates how ML can assist clinicians by prioritizing high-risk patients and reducing missed diagnoses.
+Designed as a clinical decision support prototype for cardiovascular risk prediction, prioritizing high recall to minimize missed diagnoses and providing calibrated probability estimates for reliable decision-making.
 
+💥 Makes you sound
 ---
 
 ## 🌐 Live Demo
@@ -96,6 +97,17 @@ Although Random Forest achieves near-perfect performance, this is likely due to 
 Logistic Regression was selected as the final model due to better generalization, interpretability, and more reliable calibrated probabilities, making it more suitable for clinical use.
 
 Threshold tuning (0.3) was applied to improve recall (0.91) and align predictions with clinical priorities.
+
+---
+
+## 🔍 Feature Insights
+Key contributing features include:
+- Chest pain type
+- Maximum heart rate achieved
+- ST depression (oldpeak)
+- Number of major vessels
+
+These align with known clinical indicators of cardiovascular disease risk.
 
 ---
 
