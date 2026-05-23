@@ -6,7 +6,6 @@ A machine learning-based **clinical decision support system** for predicting car
 
 Designed as a clinical decision support prototype for cardiovascular risk prediction, prioritizing high recall to minimize missed diagnoses and providing calibrated probability estimates for reliable decision-making.
 
-💥 Makes you sound
 ---
 
 ## 🌐 Live Demo
